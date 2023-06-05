@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043A285429B5189B00ECC408 /* SmartCarMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A285329B5189B00ECC408 /* SmartCarMateApp.swift */; };
+		043A285629B5189B00ECC408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A285529B5189B00ECC408 /* ContentView.swift */; };
+		043A285829B5189D00ECC408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A285729B5189D00ECC408 /* Assets.xcassets */; };
+		043A285B29B5189D00ECC408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A285A29B5189D00ECC408 /* Preview Assets.xcassets */; };
+		043A285D29B5189D00ECC408 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A285C29B5189D00ECC408 /* Persistence.swift */; };
+		043A286029B5189D00ECC408 /* SmartCarMate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043A285E29B5189D00ECC408 /* SmartCarMate.xcdatamodeld */; };
+		044B6A0229DCAD3F00B1494E /* ExpenseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A0029DCAD3F00B1494E /* ExpenseModel.xcdatamodeld */; };
+		044B6A0429DCAEA000B1494E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A0329DCAEA000B1494E /* DataController.swift */; };
+		044B6A0829DCB4BF00B1494E /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A0729DCB4BF00B1494E /* TimeFormatting.swift */; };
+		044B6A0A29DCD9F000B1494E /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B6A0929DCD9F000B1494E /* EditExpenseView.swift */; };
+		04E9D5F32A25100C0054B671 /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D5F22A25100C0054B671 /* ReminderManager.swift */; };
+		04E9D5F52A2511310054B671 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D5F42A2511310054B671 /* AddReminderView.swift */; };
+		04E9D5FC2A2538390054B671 /* RemindersDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D5FB2A2538390054B671 /* RemindersDataManager.swift */; };
+		04E9D5FE2A253B6E0054B671 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D5FD2A253B6E0054B671 /* MapView.swift */; };
+		04E9D6022A2CECF70054B671 /* ActionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D6012A2CECF70054B671 /* ActionHistoryView.swift */; };
+		04E9D60E2A2E85760054B671 /* SmartCarMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D60D2A2E85760054B671 /* SmartCarMateTests.swift */; };
+		04E9D6162A2E860B0054B671 /* PlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D6152A2E860B0054B671 /* PlistTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E9D60F2A2E85760054B671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043A284829B5189B00ECC408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043A284F29B5189B00ECC408;
+			remoteInfo = SmartCarMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043A285029B5189B00ECC408 /* SmartCarMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCarMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043A285329B5189B00ECC408 /* SmartCarMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarMateApp.swift; sourceTree = "<group>"; };
+		043A285529B5189B00ECC408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		043A285729B5189D00ECC408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043A285A29B5189D00ECC408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		043A285C29B5189D00ECC408 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		043A285F29B5189D00ECC408 /* SmartCarMate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartCarMate.xcdatamodel; sourceTree = "<group>"; };
+		044B6A0129DCAD3F00B1494E /* ExpenseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseModel.xcdatamodel; sourceTree = "<group>"; };
+		044B6A0329DCAEA000B1494E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		044B6A0729DCB4BF00B1494E /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		044B6A0929DCD9F000B1494E /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		04E9D5F22A25100C0054B671 /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		04E9D5F42A2511310054B671 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		04E9D5FB2A2538390054B671 /* RemindersDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersDataManager.swift; sourceTree = "<group>"; };
+		04E9D5FD2A253B6E0054B671 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04E9D6012A2CECF70054B671 /* ActionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionHistoryView.swift; sourceTree = "<group>"; };
+		04E9D60B2A2E85760054B671 /* SmartCarMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCarMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E9D60D2A2E85760054B671 /* SmartCarMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarMateTests.swift; sourceTree = "<group>"; };
+		04E9D6152A2E860B0054B671 /* PlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043A284D29B5189B00ECC408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E9D6082A2E85760054B671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043A284729B5189B00ECC408 = {
+			isa = PBXGroup;
+			children = (
+				043A285229B5189B00ECC408 /* SmartCarMate */,
+				043A285129B5189B00ECC408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043A285129B5189B00ECC408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043A285029B5189B00ECC408 /* SmartCarMate.app */,
+				04E9D60B2A2E85760054B671 /* SmartCarMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043A285229B5189B00ECC408 /* SmartCarMate */ = {
+			isa = PBXGroup;
+			children = (
+				043A285329B5189B00ECC408 /* SmartCarMateApp.swift */,
+				04E9D5F22A25100C0054B671 /* ReminderManager.swift */,
+				04E9D5FB2A2538390054B671 /* RemindersDataManager.swift */,
+				04E9D60C2A2E85760054B671 /* SmartCarMateTests */,
+				044B6A0629DCB4A900B1494E /* Helpers */,
+				044B6A0529DCB44000B1494E /* Views */,
+				044B69FF29DCAC5100B1494E /* DataModel */,
+				043A285729B5189D00ECC408 /* Assets.xcassets */,
+				043A285C29B5189D00ECC408 /* Persistence.swift */,
+				043A285E29B5189D00ECC408 /* SmartCarMate.xcdatamodeld */,
+				043A285929B5189D00ECC408 /* Preview Content */,
+			);
+			path = SmartCarMate;
+			sourceTree = "<group>";
+		};
+		043A285929B5189D00ECC408 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				043A285A29B5189D00ECC408 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044B69FF29DCAC5100B1494E /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				044B6A0029DCAD3F00B1494E /* ExpenseModel.xcdatamodeld */,
+				044B6A0329DCAEA000B1494E /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		044B6A0529DCB44000B1494E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043A285529B5189B00ECC408 /* ContentView.swift */,
+				044B6A0929DCD9F000B1494E /* EditExpenseView.swift */,
+				04E9D5F42A2511310054B671 /* AddReminderView.swift */,
+				04E9D5FD2A253B6E0054B671 /* MapView.swift */,
+				04E9D6012A2CECF70054B671 /* ActionHistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		044B6A0629DCB4A900B1494E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				044B6A0729DCB4BF00B1494E /* TimeFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04E9D60C2A2E85760054B671 /* SmartCarMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E9D6142A2E85A20054B671 /* Plist */,
+				04E9D60D2A2E85760054B671 /* SmartCarMateTests.swift */,
+			);
+			path = SmartCarMateTests;
+			sourceTree = "<group>";
+		};
+		04E9D6142A2E85A20054B671 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				04E9D6152A2E860B0054B671 /* PlistTests.swift */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043A284F29B5189B00ECC408 /* SmartCarMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043A286329B5189D00ECC408 /* Build configuration list for PBXNativeTarget "SmartCarMate" */;
+			buildPhases = (
+				043A284C29B5189B00ECC408 /* Sources */,
+				043A284D29B5189B00ECC408 /* Frameworks */,
+				043A284E29B5189B00ECC408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCarMate;
+			productName = SmartCarMate;
+			productReference = 043A285029B5189B00ECC408 /* SmartCarMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E9D60A2A2E85760054B671 /* SmartCarMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E9D6112A2E85760054B671 /* Build configuration list for PBXNativeTarget "SmartCarMateTests" */;
+			buildPhases = (
+				04E9D6072A2E85760054B671 /* Sources */,
+				04E9D6082A2E85760054B671 /* Frameworks */,
+				04E9D6092A2E85760054B671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E9D6102A2E85760054B671 /* PBXTargetDependency */,
+			);
+			name = SmartCarMateTests;
+			productName = SmartCarMateTests;
+			productReference = 04E9D60B2A2E85760054B671 /* SmartCarMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043A284829B5189B00ECC408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					043A284F29B5189B00ECC408 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04E9D60A2A2E85760054B671 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 043A284F29B5189B00ECC408;
+					};
+				};
+			};
+			buildConfigurationList = 043A284B29B5189B00ECC408 /* Build configuration list for PBXProject "SmartCarMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043A284729B5189B00ECC408;
+			productRefGroup = 043A285129B5189B00ECC408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043A284F29B5189B00ECC408 /* SmartCarMate */,
+				04E9D60A2A2E85760054B671 /* SmartCarMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043A284E29B5189B00ECC408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043A285B29B5189D00ECC408 /* Preview Assets.xcassets in Resources */,
+				043A285829B5189D00ECC408 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E9D6092A2E85760054B671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043A284C29B5189B00ECC408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9D5F32A25100C0054B671 /* ReminderManager.swift in Sources */,
+				04E9D5FE2A253B6E0054B671 /* MapView.swift in Sources */,
+				043A285D29B5189D00ECC408 /* Persistence.swift in Sources */,
+				044B6A0A29DCD9F000B1494E /* EditExpenseView.swift in Sources */,
+				044B6A0829DCB4BF00B1494E /* TimeFormatting.swift in Sources */,
+				044B6A0429DCAEA000B1494E /* DataController.swift in Sources */,
+				043A286029B5189D00ECC408 /* SmartCarMate.xcdatamodeld in Sources */,
+				04E9D6022A2CECF70054B671 /* ActionHistoryView.swift in Sources */,
+				043A285629B5189B00ECC408 /* ContentView.swift in Sources */,
+				043A285429B5189B00ECC408 /* SmartCarMateApp.swift in Sources */,
+				04E9D5F52A2511310054B671 /* AddReminderView.swift in Sources */,
+				044B6A0229DCAD3F00B1494E /* ExpenseModel.xcdatamodeld in Sources */,
+				04E9D5FC2A2538390054B671 /* RemindersDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E9D6072A2E85760054B671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9D6162A2E860B0054B671 /* PlistTests.swift in Sources */,
+				04E9D60E2A2E85760054B671 /* SmartCarMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E9D6102A2E85760054B671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043A284F29B5189B00ECC408 /* SmartCarMate */;
+			targetProxy = 04E9D60F2A2E85760054B671 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043A286129B5189D00ECC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043A286229B5189D00ECC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043A286429B5189D00ECC408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCarMate/Preview Content\"";
+				DEVELOPMENT_TEAM = J2YTXZ2NQK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartCarMate/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To view gas stations near you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.SmartCarMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043A286529B5189D00ECC408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCarMate/Preview Content\"";
+				DEVELOPMENT_TEAM = J2YTXZ2NQK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartCarMate/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To view gas stations near you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.SmartCarMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E9D6122A2E85760054B671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2YTXZ2NQK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.SmartCarMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCarMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartCarMate";
+			};
+			name = Debug;
+		};
+		04E9D6132A2E85760054B671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2YTXZ2NQK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mac.SmartCarMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCarMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartCarMate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043A284B29B5189B00ECC408 /* Build configuration list for PBXProject "SmartCarMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043A286129B5189D00ECC408 /* Debug */,
+				043A286229B5189D00ECC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043A286329B5189D00ECC408 /* Build configuration list for PBXNativeTarget "SmartCarMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043A286429B5189D00ECC408 /* Debug */,
+				043A286529B5189D00ECC408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E9D6112A2E85760054B671 /* Build configuration list for PBXNativeTarget "SmartCarMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9D6122A2E85760054B671 /* Debug */,
+				04E9D6132A2E85760054B671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		043A285E29B5189D00ECC408 /* SmartCarMate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				043A285F29B5189D00ECC408 /* SmartCarMate.xcdatamodel */,
+			);
+			currentVersion = 043A285F29B5189D00ECC408 /* SmartCarMate.xcdatamodel */;
+			path = SmartCarMate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		044B6A0029DCAD3F00B1494E /* ExpenseModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				044B6A0129DCAD3F00B1494E /* ExpenseModel.xcdatamodel */,
+			);
+			currentVersion = 044B6A0129DCAD3F00B1494E /* ExpenseModel.xcdatamodel */;
+			path = ExpenseModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 043A284829B5189B00ECC408 /* Project object */;
+}
